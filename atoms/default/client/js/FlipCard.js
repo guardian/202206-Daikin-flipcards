@@ -45,7 +45,9 @@ export default class FlipCard extends Component {
                         }}>
                             {/* <div class="border"></div> */}
                             <img src={`${assetsPath}/${props.image}`} alt="" class={props.imagePos} />
-                            <h2 dangerouslySetInnerHTML={{__html: props.front}}></h2>
+                            <div className="title">
+                                <h2 dangerouslySetInnerHTML={{__html: props.front}}></h2>
+                            </div>
                         </div>
                         <button class="btn-flip"><FlipIcon/></button>
                     </a>

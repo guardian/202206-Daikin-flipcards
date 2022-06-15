@@ -94,7 +94,7 @@ const Header = () => {
                     <h1 dangerouslySetInnerHTML={setHtml(content.title)}></h1>
                 </div>
                 <div>
-                    <div className="main-title ">
+                    <div className="main-title" dangerouslySetInnerHTML={setHtml(content.headline)}>
                         <h1>{content.headline}</h1>
                     </div>
 

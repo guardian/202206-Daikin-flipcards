@@ -21,7 +21,7 @@
         height: 80vh;
         @include mq(tablet) {
             // height: 540px;
-            height: 80vh;
+            height: 93vh;
         }
       // position: absolute;
       // max-height: 545px;
@@ -92,13 +92,13 @@
     }
 
     .client-tab {
-      background-color: #FFA94D;
+      background-color: #CDE4FF;
       display: inline-block;
       padding: .25rem 1rem;
     }
     .main-title {
-      color: white;
-      background-color: #121212;
+      color: #182050;
+      background-color: #ffffff;
       display: inline-block;
       max-width: 940px;
       padding: 1rem;

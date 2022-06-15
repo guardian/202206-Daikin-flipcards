@@ -1,15 +1,15 @@
 :root {
-  --brand-primary: #FF6D2B;
+  --brand-primary: #CDE4FF;
   --brand-secondary: #3942A3;
   --brand-alt: #FFF06B;
   --brand-alt-b: #D8E9E7;
   --button-bg-blue: #2B317A;
 }
 
-body {
-  background-color: #B9B9B9;
-  color: #ffffff;
-}
+// body {
+//   background-color: #B9B9B9;
+//   color: #ffffff;
+// }
 
 #Live {
   margin-top: 5vh;
@@ -129,9 +129,9 @@ p {
 }
 
 #Glabs {
-  background-color: #1B213C;
+  background-color: #CDE4FF;
   .content {
-    color: white;
+    color: #182050;
   }
 }
 
@@ -291,7 +291,7 @@ section.footer {
 .intro-body {
   position: relative;
    @include mq(tablet) {
-     padding-right: 25%;
+     padding-left: 25%;
    }
 }
 
@@ -306,12 +306,9 @@ section.footer {
   }
   @include mq(tablet) {
 
-    p {
-      margin-top: 1rem;
-    }
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     padding: 5px 0 15px;
     width: 15%;
     margin-top: 0;
