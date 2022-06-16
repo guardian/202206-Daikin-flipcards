@@ -117,7 +117,8 @@
           // background: #FBC74A;
           border-radius: 0 0 15px 15px;
           &:focus {
-              outline: 1px solid #cdcdcd;
+              // outline: 1px solid #cdcdcd;
+              outline: none;
           }
 
           svg {
@@ -264,7 +265,7 @@
         z-index: 2;
         .content {
           padding:2.4rem;
-          color: white;
+          color: #182050;
           display: flex;
           align-items: center;
           
@@ -272,7 +273,7 @@
             display: none;
           }
           a {
-            color: white;
+            color: #182050;
 
           }
           h2 {
